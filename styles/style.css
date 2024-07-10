@@ -59,6 +59,7 @@ background-color: rgb(13, 19, 33);
 color: white;
 margin-bottom: 45px;
 margin-top: 32px;
+border: none;
 }
 /*second-section styles*/
 .second-section-container{
@@ -590,7 +591,7 @@ line-height: 23px;
 text-align: center;
 }
 .footer-container{
-width: 1440px;
+width: 100%;
 height: 100px;
 margin: 0 auto;
 left: 0;
