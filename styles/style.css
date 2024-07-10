@@ -307,5 +307,72 @@ left: 8.14%;
 right: -8.14%;
 top: 14.06%;
 bottom: -14.06%;
+}
+.Inspo-section{
+width: 1140px;
+height: 777px;
+left: 148px;
+right: 152px;
+top: 2340px;
+bottom: 2128px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin: 0 auto;
+margin-top: 90px;
+}
+.Inspo-content{
+    
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 48px 0px;
+    margin: 0 auto;
+    
+}
+.Inspo-content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    gap: 24px;
+    
+}
+.Inspo-content p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+height: 26px;
+text-align: center;
+}
+.inspo-video{
+    position: static;
+width: 1140px;
+height: 614px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 32px;
+margin: 0 auto;
+margin-top: 48px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+}
+.inspo-video-content{
+width: 1076px;
+height: 550px;
+flex: none;
+margin: 10px 0px;
+border-radius: 16px;
 
-    }
+}
