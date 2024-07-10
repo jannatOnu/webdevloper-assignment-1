@@ -479,3 +479,113 @@ text-decoration-line: underline;
 .java-content{
     background: rgba(255, 223, 0, 0.05);
 }
+.support-section{
+width: 1140px;
+height: 314px;
+left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 179px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px;
+
+margin: 0 auto;
+margin-top: 50px;
+border-radius: 16px;
+background-image: url(../assets/handshake.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 16px;
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: overlay;   
+}
+.support-content{
+width: 1044px;
+height: 186px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0px;
+
+}
+.support-title{
+width: 730px;
+height: 104px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+.support-title h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+width: 300px;
+height: 30px;
+
+}
+.support-title p{
+    color: rgb(255, 255, 255,0.7);
+font-family: Azeret Mono;
+font-size: 16px;
+height: 26px;
+text-align: center;
+margin-top: 16px;
+}
+.input-section{
+width: 684px;
+height: 58px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+margin-top: 24px;
+
+}
+.input-section input{
+width: 548px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+
+text-align: left;
+}
+.input-section button{
+width: 120px;
+height: 58px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+margin-left: 16px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+}
